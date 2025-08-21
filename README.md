@@ -31,6 +31,12 @@ go run ./cmd/consumer/main.go
 ```bash
 make env-down
 ```
+## Saída 
+Os arquivos JSON são salvos na pasta output. A contagem é realiza por tipo de operação sendo assim, contém três arquivos: 
+- `created.json`
+- `updated.json`
+- `deleted.json`
+
 ## Executar Teste de Integração 
 
 - É necessário realizar a etapa 2 e 3 do passo a passo anterior. 
