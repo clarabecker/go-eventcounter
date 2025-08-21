@@ -42,8 +42,3 @@ export RABBITMQ_URL="amqp://guest:guest@localhost:5672"
 - Execução do teste 
 ```bash
  go test ./... -v
-
-
-
-
-
